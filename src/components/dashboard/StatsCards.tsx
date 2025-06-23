@@ -140,7 +140,7 @@ const StatsCards = () => {
                   <span className="text-sm text-gray-500 ml-1">vs last week</span>
                 </div>
               </div>
-              <div className={`${stat.color} p-3 rounded-lg`}>
+              <div className={`${stat.color} flex items-center justify-center w-12 h-12 rounded-lg ml-4`}>
                 <Icon className="text-white" size={24} />
               </div>
             </div>
